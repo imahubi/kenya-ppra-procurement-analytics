@@ -1,0 +1,31 @@
+
+# Raw and processed datasets
+data/raw/
+data/processed/
+
+# Data files, including downloaded source datasets
+*.csv
+*.xlsx
+*.xls
+
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+*.config.local
+
+# Database exports and backups
+*.sql.gz
+*.dump
+*.bak
+*.tmp
+
+# Temporary and operating system files
+~$*
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Power BI temporary and recovery files
+*.tmp
+*.temp
